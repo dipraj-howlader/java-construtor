@@ -16,6 +16,8 @@ public class useCOns {
 		
 		topic3.displayInfo();
 		
+		BasicConstrutor topic4 = new BasicConstrutor();
+		
 		
 	}
 }
