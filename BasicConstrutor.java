@@ -6,6 +6,7 @@ public class BasicConstrutor {
 	String subject, topic;
 	int courseID;
 	
+	//Declaring Constructor
 	BasicConstrutor(String s,String t, int c){
 		subject = s;
 		topic = t;

@@ -1,5 +1,6 @@
 package Construtor;
 
+
 public class useCOns {
 	public static void main(String[] args) {
 		
@@ -7,5 +8,8 @@ public class useCOns {
 		
 		topic1.displayInfo();
 		
+		BasicConstrutor topic2 = new BasicConstrutor("Bangla","Poem",212);
+		
+		topic2.displayInfo();
 	}
 }
