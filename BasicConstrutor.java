@@ -18,10 +18,23 @@ public class BasicConstrutor {
 	BasicConstrutor(){
 		System.out.println("NO value");
 	}
+	//Parameterized
+	
 	BasicConstrutor(String n , int bun){
 		subject = n;
 		courseID = bun;
+		topic = "Nothing";
+		
 	}
+	
+	// Overloading Contractor
+	
+	/* different parameter list but more contractor is called 
+	Overloading contractor 
+	you will find it up
+	*/
+	
+	
 	
 	
 	void displayInfo() {
