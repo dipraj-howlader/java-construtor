@@ -14,6 +14,16 @@ public class BasicConstrutor {
 		
 	}
 	
+	//Default Contractor
+	BasicConstrutor(){
+		System.out.println("NO value");
+	}
+	BasicConstrutor(String n , int bun){
+		subject = n;
+		courseID = bun;
+	}
+	
+	
 	void displayInfo() {
 		System.out.println(subject);
 		System.out.println(topic);

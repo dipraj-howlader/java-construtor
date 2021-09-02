@@ -11,5 +11,11 @@ public class useCOns {
 		BasicConstrutor topic2 = new BasicConstrutor("Bangla","Poem",212);
 		
 		topic2.displayInfo();
+		
+		BasicConstrutor topic3 = new BasicConstrutor("English",2566);
+		
+		topic3.displayInfo();
+		
+		
 	}
 }
